@@ -42,7 +42,7 @@ function startpreview(box) {
 }
 function startdownload(box) {
     startpreview(box);
-    if (box.downloading) {
+    if (box.downloading) { 
         return;
     }
     let url = "https://catboy.best/d/" + box.sid + "?n-0";
